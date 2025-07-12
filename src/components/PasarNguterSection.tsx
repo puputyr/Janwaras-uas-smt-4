@@ -11,18 +11,15 @@ const PasarNguterSection = () => {
           {/* Left content */}
           <div>
             <h2 className="text-4xl font-bold mb-6">
-              PASAR NGUTER
+            Sejarah Jamu 
               <br />
-              <span className="text-jamu-cream">Sukoharjo</span>
+              <span className="text-jamu-cream">di Indonesia</span>
             </h2>
             
             <p className="text-jamu-cream/90 mb-8 leading-relaxed">
-              Kami bangga menjadi mitra resmi Pasar Nguter yang telah diakui sebagai pasar jamu 
-              terbesar. Kami juga menjadikan saram Nguter dan Unikae Ngak dipyukan para penjual 
-              jamu dan ramuan tradisional terpercaya di Indonesia. Lebih dari itu, kami berkomitmen 
-              untuk tetap mempertahankan kualitas dan keaslian produk jamu yang telah menjadi 
-              kearifan lokal Indonesia. Dalam kolaborasi dengan pedagang di Pasar Nguter Sukoharjo jamu, 
-              kami berharap dapat membantu dalam membangun untuk masa jamu lokal.
+            Jamu merupakan warisan budaya asli Indonesia yang telah digunakan sejak ribuan tahun lalu sebagai metode pengobatan tradisional berbasis bahan alami. Bukti tertua mengenai penggunaan jamu ditemukan dalam relief Candi Borobudur dan Prambanan yang menggambarkan praktik peracikan tanaman obat.
+
+Pada masa kerajaan Hindu-Buddha seperti Mataram Kuno dan Majapahit, jamu telah menjadi bagian penting dalam kehidupan masyarakat, terutama di lingkungan keraton. Resep-resep jamu diwariskan secara turun-temurun dan diracik oleh para tabib atau dukun yang menggunakan bahan dari rempah-rempah, akar, daun, hingga kulit kayu.
             </p>
             
             <Button variant="secondary" size="lg">
@@ -39,13 +36,6 @@ const PasarNguterSection = () => {
                   alt="Pasar Nguter Sukoharjo"
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-jamu-green/60 flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <MapPin className="w-16 h-16 mx-auto mb-4" />
-                    <h3 className="text-xl font-semibold mb-2">PASAR JAMU NGUTER</h3>
-                    <p className="text-sm">SUKOHARJO</p>
-                  </div>
-                </div>
               </div>
             </Card>
             
@@ -58,7 +48,7 @@ const PasarNguterSection = () => {
       
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-32 translate-x-32"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-jamu-green-dark/20 rounded-full translate-y-48 -translate-x-48"></div>
+     
     </section>
   )
 }
